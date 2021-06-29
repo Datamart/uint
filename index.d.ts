@@ -16,6 +16,24 @@ type uInt16 = number;
 type uInt32 = number;
 
 /**
+ * Maximum value for unsigned 8-bit integer.
+ * @type {uInt8}
+ */
+declare var MAX_UINT8: uInt8;
+
+/**
+ * Maximum value for unsigned 16-bit integer.
+ * @type {uInt16}
+ */
+declare var MAX_UINT16: uInt16;
+
+/**
+ * Maximum value for unsigned 32-bit integer.
+ * @type {uInt32}
+ */
+declare var MAX_UINT32: uInt32;
+
+/**
  * Converts given `number` to unsigned int8.
  * @param {number} number The number to be converted.
  * @return {uInt8} The unsigned (zero or positive) number.
