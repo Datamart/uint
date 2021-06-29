@@ -1,7 +1,7 @@
 {
   "name": "uint",
   "type": "module",
-  "version": "21.6.1",
+  "version": "21.6.2",
   "description": "Unsigned integer module from Glize library.",
   "homepage": "https://glize.js.org",
   "repository": "github:Datamart/uint",

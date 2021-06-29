@@ -19,8 +19,8 @@ const runTests = () => {
   assert.strictEqual(uint32(0), 0);
   assert.strictEqual(uint32(1), 1);
   assert.strictEqual(uint32(4294967295), 4294967295);
-  assert.strictEqual(uint16(4294967296), NaN);
-  assert.strictEqual(uint16(-4294967295), NaN);
+  assert.strictEqual(uint32(4294967296), NaN);
+  assert.strictEqual(uint32(-4294967295), NaN);
   assert.strictEqual(uint32(-1), NaN);
 };
 
