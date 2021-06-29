@@ -1,0 +1,29 @@
+{
+  "name": "uint",
+  "type": "module",
+  "version": "21.6.1",
+  "description": "Unsigned integer module from Glize library.",
+  "homepage": "https://glize.js.org",
+  "repository": "github:Datamart/uint",
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "node ./index.tests.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Datamart/uint/issues"
+  },
+  "author": {
+    "name": "Valentin Podkamennyi",
+    "email": "valentin@dtm.io",
+    "url": "https://vpodk.com/"
+  },
+  "keywords": [
+    "uint",
+    "unsigned-int",
+    "unsigned-integer",
+    "glize"
+  ]
+}
